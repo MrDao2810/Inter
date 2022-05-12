@@ -19,20 +19,20 @@
         }
         
         function takeArray(start, end) {
-                if (start > end) {
-                    var result = new Array(start - end + 1);
-                    for (let i = 0; i < result.length; i++, start--) {
-                        result[i] = start;
-                    }
-                    return result;
-                } else {
-                    var arr1 = new Array(end - start + 1);
-                    for (let j = 0; j < arr1.length; j++, start++) {
-                        arr1[j] = start;
-                    }
-                    return arr1;
+            if (start > end) {
+                var result = new Array(start - end + 1);
+                for (let i = 0; i < result.length; i++, start--) {
+                    result[i] = start;
                 }
+                return result;
+            } else {
+                var arr1 = new Array(end - start + 1);
+                for (let j = 0; j < arr1.length; j++, start++) {
+                    arr1[j] = start;
+                }
+                return arr1;
             }
+        }
     </script>
 </body>
 </html>
