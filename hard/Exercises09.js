@@ -13,6 +13,6 @@ function search_word(text, word){
             y=0;
         }
     }
-   return "'"+word+"' was found " + x + " times.";
+   return "'"+word+"' xuat hien " + x + " lan.";
 }
 console.log(search_word('that su hom nay em rat muon nghi nhung em khong co tien nen em lai di lam kiem tien', 'em'));
