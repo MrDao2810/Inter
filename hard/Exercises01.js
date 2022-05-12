@@ -9,4 +9,4 @@ function resultString(str) {
     }
     return res;
 }  
-alert(resultString('Hom nay toi nghi han mot tuan de ngu'));
+console.log(resultString('Hom nay toi nghi han mot tuan de ngu'));
