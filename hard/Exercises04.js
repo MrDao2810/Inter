@@ -1,5 +1,5 @@
-let array = [6,7,8,9];
-let array1 = [10,5,3];
+let array = [9,7,6,5];
+let array1 = [10,3,4];
 function connectArray(array, array1) {
     let res = [];
     for (let i = 0; i < array.length; i++) {
