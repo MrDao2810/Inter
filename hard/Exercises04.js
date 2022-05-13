@@ -9,7 +9,7 @@ function connectArray(array, array1) {
         res[j + array.length] = array1[j];
     }
     for ( let i = 0; i < res.length; i++) {
-        for (let j = i+ 1; j < res.length; j++) {
+        for (let j = i + 1; j < res.length; j++) {
             if (res[j] > res[i]) {
                 let temp = res[j];
                 res[j] = res[i];
